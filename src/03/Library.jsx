@@ -1,5 +1,6 @@
 import React from "react";
-import Book from "./Book";
+import Book from "./Book"
+
 
 function Library() {
     return(
@@ -8,7 +9,9 @@ function Library() {
             <Book name="난생 처음 자바" numOfPage={200}/>
             <Book name="처음 보는 React" numOfPage={500}/>
         </div>
+
     );
+
 }
 
 export default Library;

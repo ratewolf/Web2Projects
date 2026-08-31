@@ -1,7 +1,8 @@
-body {
-    background: #61dafb;
+body{
+    background-color: aquamarine;
 }
 
-h1 {
+h1{
+    color: #ff7eb3;
     font-style: italic;
 }
