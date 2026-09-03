@@ -1,0 +1,74 @@
+body:has(.book-card) {
+    margin: 0;
+    min-width: 0;
+    min-height: 100vh;
+    display: block;
+    background-color: #16151d;
+    color: #f5f5f7;
+    font-family: Arial, "Noto Sans KR", sans-serif;
+}
+
+#root:has(.book-card) {
+    width: 100%;
+    max-width: none;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+/* Library.jsx의 클래스 없는 카드 컨테이너를 선택합니다. */
+div:has(> .book-card) {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: start;
+    gap: 12px;
+    width: min(740px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 16px 0 32px;
+}
+
+.book-card {
+    box-sizing: border-box;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    text-align: left;
+}
+
+.book-card .book-cover {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.book-card h1 {
+    margin: 6px 0 2px;
+    color: #f5f5f7;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
+.book-card h2 {
+    margin: 0;
+    color: #85838e;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 718px) {
+    div:has(> .book-card) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        max-width: 496px;
+    }
+}

@@ -1,0 +1,175 @@
+/* 기존 JSX 구조를 유지하는 밝은 Otapia 스타일입니다.
+   검색, 필터, 메뉴 같은 조작 요소는 JSX 구현이 필요합니다. */
+body:has(.book-card) {
+    margin: 0;
+    min-width: 0;
+    min-height: 100vh;
+    display: block;
+    color: #20253b;
+    background:
+            radial-gradient(ellipse at 12% 0%, #caffee 0%, transparent 42%),
+            radial-gradient(ellipse at 90% 0%, #f9e4ef 0%, transparent 40%),
+            #f8f9ff;
+    background-attachment: fixed;
+    font-family: "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif;
+    line-height: 1.5;
+}
+
+/* CSS로 추가하는 정적인 브랜드 표시입니다. */
+body:has(.book-card)::before {
+    content: "Otapia";
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    min-height: 108px;
+    padding: 24px max(24px, calc((100% - 1180px) / 2));
+    border-top: 1px solid #ffdbd6;
+    border-bottom: 1px solid #e0e2e8;
+    background: rgb(255 255 255 / 38%);
+    color: #14213a;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+}
+
+#root:has(.book-card) {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+/* Library.jsx의 클래스 없는 카드 컨테이너를 선택합니다. */
+div:has(> .book-card) {
+    position: relative;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 24px;
+    width: min(1360px, calc(100% - 48px));
+    margin: 0 auto;
+    padding: 34px 0 64px;
+}
+
+/* 소개 배너: 검색창이나 버튼을 가짜로 표시하지 않습니다. */
+div:has(> .book-card)::before {
+    content: "작품 정보 DB";
+    box-sizing: border-box;
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    min-height: 244px;
+    margin-bottom: 4px;
+    padding: 40px 48px 88px;
+    border-radius: 32px;
+    background:
+            radial-gradient(circle at 85% 8%, rgb(127 255 217 / 30%), transparent 30%),
+            linear-gradient(120deg, #202339, #323058 65%, #49467d);
+    box-shadow: 0 20px 48px rgb(37 41 74 / 12%);
+    color: #fff;
+    font-size: clamp(32px, 4vw, 56px);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -2px;
+}
+
+div:has(> .book-card)::after {
+    content: "보유한 도서의 표지와 작품 정보를 한눈에 확인하세요.";
+    position: absolute;
+    top: 204px;
+    left: 48px;
+    right: 48px;
+    color: #e1e4fa;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+    pointer-events: none;
+}
+
+.book-card {
+    box-sizing: border-box;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e2e3ea;
+    border-radius: 28px;
+    background: rgb(255 255 255 / 95%);
+    box-shadow: 0 18px 40px rgb(37 41 74 / 10%);
+    text-align: left;
+}
+
+.book-card .book-cover {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    padding: 24px;
+    object-fit: contain;
+    background: linear-gradient(130deg, #bff8e8, #e5ebed 55%, #f5d9e8);
+    color: #203147;
+    font-size: 14px;
+}
+
+.book-card h1 {
+    margin: 22px 24px 10px;
+    color: #20253b;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.55;
+    letter-spacing: -0.5px;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+}
+
+.book-card h2 {
+    margin: 0 24px 26px;
+    color: #747b8d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+    div:has(> .book-card) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    body:has(.book-card)::before {
+        min-height: 80px;
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    div:has(> .book-card) {
+        grid-template-columns: minmax(0, 1fr);
+        width: calc(100% - 32px);
+        padding-top: 24px;
+    }
+
+    div:has(> .book-card)::before {
+        min-height: 244px;
+        padding: 32px 28px 104px;
+        border-radius: 24px;
+        letter-spacing: -1px;
+    }
+
+    div:has(> .book-card)::after {
+        top: 170px;
+        left: 28px;
+        right: 28px;
+        font-size: 14px;
+    }
+
+    .book-card {
+        border-radius: 24px;
+    }
+}
