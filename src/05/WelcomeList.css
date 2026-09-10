@@ -1,0 +1,29 @@
+/* 1. 전체 목록 컨테이너 스타일 */
+.welcome-list-container {
+    width: 50%;          /* 문서 너비의 50% */
+    margin: 0 auto;      /* 페이지 중앙 정렬 */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* 2. 개별 Welcome 컴포넌트 스타일 */
+.welcome-item {
+    text-align: center;  /* 텍스트 가운데 정렬 */
+    padding: 16px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+/* 각기 다른 배경색 지정 */
+.welcome-item:nth-child(1) {
+    background-color: #4a90e2; /* 블루 */
+}
+
+.welcome-item:nth-child(2) {
+    background-color: #50e3c2; /* 민트 */
+}
+
+.welcome-item:nth-child(3) {
+    background-color: #f5a623; /* 오렌지 */
+}
