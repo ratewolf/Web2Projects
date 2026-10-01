@@ -1,0 +1,30 @@
+/* NotificationList.css */
+
+.notification-list {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 40px 20px;
+
+    background-color: #f5f7fb;
+}
+
+/* 작은 화면 대응 */
+@media (max-width: 600px) {
+    .notification-list {
+        padding: 20px 15px;
+    }
+
+    .notification {
+        padding: 15px 18px;
+    }
+
+    .notification-message {
+        font-size: 14px;
+    }
+}

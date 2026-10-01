@@ -3,11 +3,11 @@ import ConfirmDialog from "./ConfirmDialog";
 
 function ConfirmDialogList() {
     return(
-      <div>
-          <ConfirmDialog>내용</ConfirmDialog><br/>
-          <ConfirmDialog>방송</ConfirmDialog><br/>
-          <ConfirmDialog>게시글</ConfirmDialog><br/>
-      </div>
+        <div>
+            <ConfirmDialog>내용</ConfirmDialog>
+            <ConfirmDialog>방송</ConfirmDialog>
+            <ConfirmDialog>게시글</ConfirmDialog>
+        </div>
     );
 }
 

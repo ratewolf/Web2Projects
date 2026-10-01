@@ -1,8 +1,9 @@
 import React from "react";
+import "./Welcome.css";
 
 function Welcome(props) {
     return(
-      <h1 className="welcome-item">안녕, {props.name}</h1>
+        <h1>안녕하세요~ 님</h1>
     );
 }
 

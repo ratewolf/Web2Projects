@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f4f1ea;
+
+    font-family: Arial, sans-serif;
+}
+
+.bookListWrapper {
+    display: grid;
+
+    grid-template-columns: repeat(4, 220px);
+
+    gap: 20px;
+
+    justify-content: center;
+
+    padding: 30px;
+}
+
+@media (max-width: 1000px) {
+    .bookListWrapper {
+        grid-template-columns: repeat(2, 220px);
+    }
+}
+
+@media (max-width: 520px) {
+    .bookListWrapper {
+        grid-template-columns: 220px;
+    }
+}
