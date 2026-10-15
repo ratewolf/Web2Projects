@@ -24,14 +24,15 @@ import reportWebVitals from './reportWebVitals';
 
 // import Accommodate from "./07/Accommodate";
 
-import ToggleFunction from "./08/ToggleFunction";
+// import ToggleFunction from "./08/ToggleFunction";
+import MyButton2 from "./08/MyButton2";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
         root.render(
             <React.StrictMode>
-                <ToggleFunction />
+                <MyButton2 />
             </React.StrictMode>
         );
     }, 1000
