@@ -25,14 +25,16 @@ import reportWebVitals from './reportWebVitals';
 // import Accommodate from "./07/Accommodate";
 
 // import ToggleFunction from "./08/ToggleFunction";
-import MyButton2 from "./08/MyButton2";
+import ConfirmButton from "./08/ConfirmButton";
+import ConfirmButton2 from "./08/ConfirmButton2";
+import MessageTelautograph from "./08/exam1/MessageTelautograph"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
         root.render(
             <React.StrictMode>
-                <MyButton2 />
+                <MessageTelautograph />
             </React.StrictMode>
         );
     }, 1000
