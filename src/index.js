@@ -25,16 +25,21 @@ import reportWebVitals from './reportWebVitals';
 // import Accommodate from "./07/Accommodate";
 
 // import ToggleFunction from "./08/ToggleFunction";
-import ConfirmButton from "./08/ConfirmButton";
-import ConfirmButton2 from "./08/ConfirmButton2";
-import MessageTelautograph from "./08/exam1/MessageTelautograph"
+// import ConfirmButton from "./08/ConfirmButton";
+// import ConfirmButton2 from "./08/ConfirmButton2";
+// import MessageTelautograph from "./08/exam1/MessageTelautograph"
+
+// import Mailbox from "./09/ex3/Mailbox";
+// import LogInControl2 from "./09/ex3/LoginControl2";
+// import MainPage from "./09/ex4/MainPage";
+import LandingPage from "./09/finalEX/LandingPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
         root.render(
             <React.StrictMode>
-                <MessageTelautograph />
+                <LandingPage />
             </React.StrictMode>
         );
     }, 1000

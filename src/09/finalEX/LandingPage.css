@@ -1,0 +1,74 @@
+/* 전체 컨테이너 및 기본 폰트 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* 상단 툴바 스타일 */
+div > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 16px 24px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9ecef;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+/* 툴바 환영 메시지 */
+div > div:first-child span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2b8a3e;
+}
+
+/* 로그인 / 로그아웃 버튼 스타일 */
+div > div:first-child button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #339af0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+div > div:first-child button:hover {
+    background-color: #1c7ed6;
+}
+
+div > div:first-child button:active {
+    transform: scale(0.98);
+}
+
+/* 본문 영역 스타일 */
+div > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 32px;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+/* 아메리카노 이미지 스타일 */
+div > div:nth-child(2) img {
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
