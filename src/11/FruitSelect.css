@@ -1,0 +1,77 @@
+/* 전체 컨테이너 중앙 정렬 */
+.fruit-select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* 폼 카드 스타일 */
+.fruit-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 320px;
+    box-sizing: border-box;
+}
+
+/* 라벨 스타일 (수직 정렬) */
+.fruit-label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333333;
+}
+
+/* 드롭다운(select) 스타일 */
+.fruit-select {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 15px;
+    border: 1px solid #dcdfe6;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    color: #2c3e50;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.fruit-select:hover {
+    border-color: #4caf50;
+}
+
+.fruit-select:focus {
+    border-color: #4caf50;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.15);
+}
+
+/* 제출 버튼 스타일 */
+.fruit-submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.fruit-submit-btn:hover {
+    background-color: #45a049;
+}
+
+.fruit-submit-btn:active {
+    transform: scale(0.98);
+}

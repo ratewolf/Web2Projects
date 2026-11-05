@@ -1,0 +1,103 @@
+/* 전체 컨테이너 정렬 */
+.reservation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* 폼 카드 스타일 */
+.reservation-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 340px;
+    box-sizing: border-box;
+}
+
+.reservation-title {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+/* 일반 라벨 스타일 */
+.reservation-label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444444;
+}
+
+/* 체크박스 라벨 전용 (가로 정렬) */
+.checkbox-label {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* 커스텀 체크박스 스타일 */
+.reservation-checkbox {
+    width: 20px;
+    height: 20px;
+    accent-color: #4caf50; /* 체크박스 테마 색상 */
+    cursor: pointer;
+}
+
+/* 숫자 입력 필드 스타일 */
+.reservation-input {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 15px;
+    border: 1px solid #dcdfe6;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    color: #2c3e50;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+
+.reservation-input:hover {
+    border-color: #4caf50;
+}
+
+.reservation-input:focus {
+    border-color: #4caf50;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.15);
+}
+
+/* 제출 버튼 스타일 */
+.reservation-submit-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.reservation-submit-btn:hover {
+    background-color: #45a049;
+}
+
+.reservation-submit-btn:active {
+    transform: scale(0.98);
+}

@@ -32,14 +32,19 @@ import reportWebVitals from './reportWebVitals';
 // import Mailbox from "./09/ex3/Mailbox";
 // import LogInControl2 from "./09/ex3/LoginControl2";
 // import MainPage from "./09/ex4/MainPage";
-import LandingPage from "./09/finalEX/LandingPage";
+// import LandingPage from "./09/finalEX/LandingPage";
+// import MapTest from "./10/MapTest"
+// import AttendanceCardBook from "./10/AttendanceCardBook";
+// import NewForm from "./11/NewForm";
+// import FruitSelect from "./11/FruitSelect";
+import Reservation from "./11/Reservation";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
         root.render(
             <React.StrictMode>
-                <LandingPage />
+                <Reservation />
             </React.StrictMode>
         );
     }, 1000
