@@ -37,14 +37,16 @@ import reportWebVitals from './reportWebVitals';
 // import AttendanceCardBook from "./10/AttendanceCardBook";
 // import NewForm from "./11/NewForm";
 // import FruitSelect from "./11/FruitSelect";
-import Reservation from "./11/Reservation";
+// import Reservation from "./11/Reservation";
+// import Calculator from "./12/ex4/Calculator";
+import DistanceConverter from "./12/ex6/DistanceConverter";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
         root.render(
             <React.StrictMode>
-                <Reservation />
+                <DistanceConverter />
             </React.StrictMode>
         );
     }, 1000
