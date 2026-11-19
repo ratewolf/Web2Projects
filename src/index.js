@@ -39,14 +39,15 @@ import reportWebVitals from './reportWebVitals';
 // import FruitSelect from "./11/FruitSelect";
 // import Reservation from "./11/Reservation";
 // import Calculator from "./12/ex4/Calculator";
-import DistanceConverter from "./12/ex6/DistanceConverter";
+// import DistanceConverter from "./12/ex6/DistanceConverter";
+import WelcomeDialog from "./13/ex1/WelcomeDialog";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
         root.render(
             <React.StrictMode>
-                <DistanceConverter />
+                <WelcomeDialog />
             </React.StrictMode>
         );
     }, 1000
