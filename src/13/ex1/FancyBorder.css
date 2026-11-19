@@ -53,3 +53,21 @@
     color: #475569;
     word-break: keep-all; /* 한글 단어 단위 줄바꿈 */
 }
+
+.Dialog-container {
+    display: flex;
+    flex-direction: column; /* 위아래로 배치 */
+    justify-content: center; /* 세로 방향(화면 높이 기준) 가운데 정렬 */
+    align-items: center;     /* 가로 방향(화면 너비 기준) 가운데 정렬 */
+    min-height: 100vh;       /* 화면 전체 높이를 기준으로 중앙을 잡기 위함 */
+    gap: 24px;               /* 두 FancyBorder 사이의 간격 */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* 기존 .FancyBorder의 상하 margin 제거 (gap으로 간격 조절) */
+.FancyBorder {
+    margin: 0;
+    width: 100%;
+    max-width: 480px;
+}

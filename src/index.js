@@ -40,14 +40,15 @@ import reportWebVitals from './reportWebVitals';
 // import Reservation from "./11/Reservation";
 // import Calculator from "./12/ex4/Calculator";
 // import DistanceConverter from "./12/ex6/DistanceConverter";
-import WelcomeDialog from "./13/ex1/WelcomeDialog";
+import SignUpDialog from "./13/ex3/SignUpDialog";
+import ProfileCard from "./13/ex5/ProfileCard"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
         root.render(
             <React.StrictMode>
-                <WelcomeDialog />
+                <ProfileCard />
             </React.StrictMode>
         );
     }, 1000

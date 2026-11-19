@@ -3,7 +3,7 @@ import FancyBorder from "./FancyBorder";
 
 function WelcomeDialog(props) {
     return (
-        <div>
+        <div className={"Dialog-container"}>
             <FancyBorder color={"blue"}>
                 <h1 className={"Dialog-title"}>
                     어서오세요
