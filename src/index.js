@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 //import App from './App';
 //import TodoListApp from "./01/TodoListApp";
 import reportWebVitals from './reportWebVitals';
@@ -42,17 +41,15 @@ import reportWebVitals from './reportWebVitals';
 // import DistanceConverter from "./12/ex6/DistanceConverter";
 // import SignUpDialog from "./13/ex3/SignUpDialog";
 // import ProfileCard from "./13/ex5/ProfileCard";
-import DarkOrLight from "./14/ex2/DarkOrLight";
+// import DarkOrLight from "./14/ex2/DarkOrLight";
+
+import OtapiaApp from './otapia/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
-setInterval(() => {
-        root.render(
-            <React.StrictMode>
-                <DarkOrLight />
-            </React.StrictMode>
-        );
-    }, 1000
+root.render(
+  <React.StrictMode>
+    <OtapiaApp />
+  </React.StrictMode>
 );
 
 

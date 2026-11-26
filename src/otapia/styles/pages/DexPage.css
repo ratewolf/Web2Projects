@@ -1,0 +1,33 @@
+.dex-layout { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 24px; align-items: start; }
+.filters-panel { padding: 19px; }
+.filters-panel .panel-heading { margin-bottom: 15px; }
+.filters-panel .panel-heading h2 { font-size: 17px; }
+.filters-panel form { display: grid; gap: 13px; }
+.stat-range { border: 0; padding: 0; margin: 0; min-width: 0; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 7px; }
+.stat-range legend { padding: 0; font-size: 13px; font-weight: 700; margin-bottom: 7px; }
+.stat-range .form-error { grid-column: 1 / -1; }
+.results-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 15px; }
+.results-bar h2 { font-size: 17px; letter-spacing: -.025em; }
+.results-bar h2 strong { color: var(--accent); margin-left: 4px; white-space: nowrap; }
+.pokemon-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 15px; }
+
+.empty-state { padding: 52px 16px; text-align: center; }
+.empty-state p { color: var(--muted); margin: 9px 0 17px; font-size: 14px; word-break: keep-all; }
+
+@media (max-width: 1000px) {
+  .dex-layout { grid-template-columns: 202px minmax(0, 1fr); gap: 15px; }
+  .pokemon-grid { gap: 10px; }
+}
+
+@media (max-width: 810px) {
+  .pokemon-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 600px) {
+  .dex-layout { grid-template-columns: minmax(0, 1fr); gap: 17px; }
+  .filters-panel { padding: 13px; }
+  .filters-panel form { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .filters-panel .field { font-size: 12px; }
+  .results-bar .button { font-size: 12px; padding: 8px; min-height: 38px; }
+  .results-bar h2 { font-size: 14px; }
+}

@@ -1,0 +1,12 @@
+.account-page { max-width: 490px; }
+.account-panel { padding: clamp(16px, 3vw, 27px); }
+.account-form { display: grid; gap: 13px; }
+.password-field { position: relative; }
+.password-field input { padding-right: 68px; }
+.password-field button { position: absolute; right: 10px; top: 0; height: 100%; font-size: 12px; padding: 0 4px; }
+.account-switch { text-align: center; color: var(--muted); font-size: 13px; }
+.account-success { display: grid; justify-items: start; gap: 11px; font-size: 14px; }
+.account-success h2 { font-size: 22px; }
+.account-success p { color: var(--muted); }
+
+.account-form > .account-switch { margin-top: 12px; }

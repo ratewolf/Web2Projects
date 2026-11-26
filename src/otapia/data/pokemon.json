@@ -1,0 +1,1312 @@
+[
+  {
+    "dexNumber": 1,
+    "nameKo": "이상해씨",
+    "nameEn": "Bulbasaur",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "풀",
+      "독"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "image": "pokemon/1.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/1/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/1/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+    }
+  },
+  {
+    "dexNumber": 2,
+    "nameKo": "이상해풀",
+    "nameEn": "Ivysaur",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "풀",
+      "독"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 60
+    },
+    "image": "pokemon/2.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/2/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/2/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+    }
+  },
+  {
+    "dexNumber": 3,
+    "nameKo": "이상해꽃",
+    "nameEn": "Venusaur",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "풀",
+      "독"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "image": "pokemon/3.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/3/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/3/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+    }
+  },
+  {
+    "dexNumber": 4,
+    "nameKo": "파이리",
+    "nameEn": "Charmander",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "불꽃"
+    ],
+    "baseStats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "specialAttack": 60,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "image": "pokemon/4.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/4/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/4/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+    }
+  },
+  {
+    "dexNumber": 5,
+    "nameKo": "리자드",
+    "nameEn": "Charmeleon",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "불꽃"
+    ],
+    "baseStats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "specialAttack": 80,
+      "specialDefense": 65,
+      "speed": 80
+    },
+    "image": "pokemon/5.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/5/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/5/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+    }
+  },
+  {
+    "dexNumber": 6,
+    "nameKo": "리자몽",
+    "nameEn": "Charizard",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "불꽃",
+      "비행"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "specialAttack": 109,
+      "specialDefense": 85,
+      "speed": 100
+    },
+    "image": "pokemon/6.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/6/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/6/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+    }
+  },
+  {
+    "dexNumber": 7,
+    "nameKo": "꼬부기",
+    "nameEn": "Squirtle",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "물"
+    ],
+    "baseStats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 64,
+      "speed": 43
+    },
+    "image": "pokemon/7.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/7/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/7/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+    }
+  },
+  {
+    "dexNumber": 8,
+    "nameKo": "어니부기",
+    "nameEn": "Wartortle",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "물"
+    ],
+    "baseStats": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "specialAttack": 65,
+      "specialDefense": 80,
+      "speed": 58
+    },
+    "image": "pokemon/8.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/8/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/8/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+    }
+  },
+  {
+    "dexNumber": 9,
+    "nameKo": "거북왕",
+    "nameEn": "Blastoise",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "물"
+    ],
+    "baseStats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "specialAttack": 85,
+      "specialDefense": 105,
+      "speed": 78
+    },
+    "image": "pokemon/9.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/9/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/9/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+    }
+  },
+  {
+    "dexNumber": 16,
+    "nameKo": "구구",
+    "nameEn": "Pidgey",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "노말",
+      "비행"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 56
+    },
+    "image": "pokemon/16.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/16/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/16/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png"
+    }
+  },
+  {
+    "dexNumber": 19,
+    "nameKo": "꼬렛",
+    "nameEn": "Rattata",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "노말"
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "specialAttack": 25,
+      "specialDefense": 35,
+      "speed": 72
+    },
+    "image": "pokemon/19.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/19/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/19/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png"
+    }
+  },
+  {
+    "dexNumber": 25,
+    "nameKo": "피카츄",
+    "nameEn": "Pikachu",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "전기"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 90
+    },
+    "image": "pokemon/25.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/25/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/25/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+    }
+  },
+  {
+    "dexNumber": 39,
+    "nameKo": "푸린",
+    "nameEn": "Jigglypuff",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "노말",
+      "페어리"
+    ],
+    "baseStats": {
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "specialAttack": 45,
+      "specialDefense": 25,
+      "speed": 20
+    },
+    "image": "pokemon/39.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/39/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/39/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png"
+    }
+  },
+  {
+    "dexNumber": 52,
+    "nameKo": "나옹",
+    "nameEn": "Meowth",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "노말"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 90
+    },
+    "image": "pokemon/52.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/52/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/52/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png"
+    }
+  },
+  {
+    "dexNumber": 133,
+    "nameKo": "이브이",
+    "nameEn": "Eevee",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "노말"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "specialAttack": 45,
+      "specialDefense": 65,
+      "speed": 55
+    },
+    "image": "pokemon/133.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/133/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/133/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+    }
+  },
+  {
+    "dexNumber": 150,
+    "nameKo": "뮤츠",
+    "nameEn": "Mewtwo",
+    "generation": 1,
+    "originRegion": "관동",
+    "debutGames": [
+      "포켓몬스터 적·녹"
+    ],
+    "types": [
+      "에스퍼"
+    ],
+    "baseStats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "specialAttack": 154,
+      "specialDefense": 90,
+      "speed": 130
+    },
+    "image": "pokemon/150.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/150/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/150/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+    }
+  },
+  {
+    "dexNumber": 152,
+    "nameKo": "치코리타",
+    "nameEn": "Chikorita",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "풀"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 65,
+      "specialAttack": 49,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "image": "pokemon/152.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/152/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/152/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png"
+    }
+  },
+  {
+    "dexNumber": 153,
+    "nameKo": "베이리프",
+    "nameEn": "Bayleef",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "풀"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 80,
+      "specialAttack": 63,
+      "specialDefense": 80,
+      "speed": 60
+    },
+    "image": "pokemon/153.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/153/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/153/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png"
+    }
+  },
+  {
+    "dexNumber": 154,
+    "nameKo": "메가니움",
+    "nameEn": "Meganium",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "풀"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 100,
+      "specialAttack": 83,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "image": "pokemon/154.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/154/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/154/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png"
+    }
+  },
+  {
+    "dexNumber": 155,
+    "nameKo": "브케인",
+    "nameEn": "Cyndaquil",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "불꽃"
+    ],
+    "baseStats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "specialAttack": 60,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "image": "pokemon/155.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/155/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/155/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png"
+    }
+  },
+  {
+    "dexNumber": 156,
+    "nameKo": "마그케인",
+    "nameEn": "Quilava",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "불꽃"
+    ],
+    "baseStats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "specialAttack": 80,
+      "specialDefense": 65,
+      "speed": 80
+    },
+    "image": "pokemon/156.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/156/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/156/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/156.png"
+    }
+  },
+  {
+    "dexNumber": 157,
+    "nameKo": "블레이범",
+    "nameEn": "Typhlosion",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "불꽃"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "specialAttack": 109,
+      "specialDefense": 85,
+      "speed": 100
+    },
+    "image": "pokemon/157.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/157/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/157/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/157.png"
+    }
+  },
+  {
+    "dexNumber": 158,
+    "nameKo": "리아코",
+    "nameEn": "Totodile",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "물"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 64,
+      "specialAttack": 44,
+      "specialDefense": 48,
+      "speed": 43
+    },
+    "image": "pokemon/158.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/158/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/158/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png"
+    }
+  },
+  {
+    "dexNumber": 159,
+    "nameKo": "엘리게이",
+    "nameEn": "Croconaw",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "물"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 80,
+      "defense": 80,
+      "specialAttack": 59,
+      "specialDefense": 63,
+      "speed": 58
+    },
+    "image": "pokemon/159.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/159/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/159/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png"
+    }
+  },
+  {
+    "dexNumber": 160,
+    "nameKo": "장크로다일",
+    "nameEn": "Feraligatr",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "물"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "attack": 105,
+      "defense": 100,
+      "specialAttack": 79,
+      "specialDefense": 83,
+      "speed": 78
+    },
+    "image": "pokemon/160.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/160/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/160/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png"
+    }
+  },
+  {
+    "dexNumber": 161,
+    "nameKo": "꼬리선",
+    "nameEn": "Sentret",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "노말"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 46,
+      "defense": 34,
+      "specialAttack": 35,
+      "specialDefense": 45,
+      "speed": 20
+    },
+    "image": "pokemon/161.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/161/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/161/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/161.png"
+    }
+  },
+  {
+    "dexNumber": 163,
+    "nameKo": "부우부",
+    "nameEn": "Hoothoot",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "노말",
+      "비행"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 30,
+      "defense": 30,
+      "specialAttack": 36,
+      "specialDefense": 56,
+      "speed": 50
+    },
+    "image": "pokemon/163.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/163/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/163/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/163.png"
+    }
+  },
+  {
+    "dexNumber": 172,
+    "nameKo": "피츄",
+    "nameEn": "Pichu",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "전기"
+    ],
+    "baseStats": {
+      "hp": 20,
+      "attack": 40,
+      "defense": 15,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 60
+    },
+    "image": "pokemon/172.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/172/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/172/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png"
+    }
+  },
+  {
+    "dexNumber": 175,
+    "nameKo": "토게피",
+    "nameEn": "Togepi",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "페어리"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 20,
+      "defense": 65,
+      "specialAttack": 40,
+      "specialDefense": 65,
+      "speed": 20
+    },
+    "image": "pokemon/175.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/175/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/175/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/175.png"
+    }
+  },
+  {
+    "dexNumber": 179,
+    "nameKo": "메리프",
+    "nameEn": "Mareep",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "전기"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 40,
+      "defense": 40,
+      "specialAttack": 65,
+      "specialDefense": 45,
+      "speed": 35
+    },
+    "image": "pokemon/179.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/179/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/179/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png"
+    }
+  },
+  {
+    "dexNumber": 196,
+    "nameKo": "에브이",
+    "nameEn": "Espeon",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "에스퍼"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 130,
+      "specialDefense": 95,
+      "speed": 110
+    },
+    "image": "pokemon/196.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/196/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/196/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png"
+    }
+  },
+  {
+    "dexNumber": 197,
+    "nameKo": "블래키",
+    "nameEn": "Umbreon",
+    "generation": 2,
+    "originRegion": "성도",
+    "debutGames": [
+      "포켓몬스터 금·은"
+    ],
+    "types": [
+      "악"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 110,
+      "specialAttack": 60,
+      "specialDefense": 130,
+      "speed": 65
+    },
+    "image": "pokemon/197.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/197/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/197/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
+    }
+  },
+  {
+    "dexNumber": 252,
+    "nameKo": "나무지기",
+    "nameEn": "Treecko",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "풀"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "specialAttack": 65,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "image": "pokemon/252.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/252/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/252/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/252.png"
+    }
+  },
+  {
+    "dexNumber": 253,
+    "nameKo": "나무돌이",
+    "nameEn": "Grovyle",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "풀"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 45,
+      "specialAttack": 85,
+      "specialDefense": 65,
+      "speed": 95
+    },
+    "image": "pokemon/253.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/253/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/253/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/253.png"
+    }
+  },
+  {
+    "dexNumber": 254,
+    "nameKo": "나무킹",
+    "nameEn": "Sceptile",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "풀"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 65,
+      "specialAttack": 105,
+      "specialDefense": 85,
+      "speed": 120
+    },
+    "image": "pokemon/254.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/254/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/254/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/254.png"
+    }
+  },
+  {
+    "dexNumber": 255,
+    "nameKo": "아차모",
+    "nameEn": "Torchic",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "불꽃"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 60,
+      "defense": 40,
+      "specialAttack": 70,
+      "specialDefense": 50,
+      "speed": 45
+    },
+    "image": "pokemon/255.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/255/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/255/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/255.png"
+    }
+  },
+  {
+    "dexNumber": 256,
+    "nameKo": "영치코",
+    "nameEn": "Combusken",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "불꽃",
+      "격투"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 60,
+      "specialAttack": 85,
+      "specialDefense": 60,
+      "speed": 55
+    },
+    "image": "pokemon/256.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/256/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/256/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/256.png"
+    }
+  },
+  {
+    "dexNumber": 257,
+    "nameKo": "번치코",
+    "nameEn": "Blaziken",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "불꽃",
+      "격투"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 70,
+      "specialAttack": 110,
+      "specialDefense": 70,
+      "speed": 80
+    },
+    "image": "pokemon/257.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/257/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/257/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/257.png"
+    }
+  },
+  {
+    "dexNumber": 258,
+    "nameKo": "물짱이",
+    "nameEn": "Mudkip",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "물"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 70,
+      "defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 40
+    },
+    "image": "pokemon/258.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/258/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/258/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png"
+    }
+  },
+  {
+    "dexNumber": 259,
+    "nameKo": "늪짱이",
+    "nameEn": "Marshtomp",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "물",
+      "땅"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 70,
+      "specialAttack": 60,
+      "specialDefense": 70,
+      "speed": 50
+    },
+    "image": "pokemon/259.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/259/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/259/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/259.png"
+    }
+  },
+  {
+    "dexNumber": 260,
+    "nameKo": "대짱이",
+    "nameEn": "Swampert",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "물",
+      "땅"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 110,
+      "defense": 90,
+      "specialAttack": 85,
+      "specialDefense": 90,
+      "speed": 60
+    },
+    "image": "pokemon/260.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/260/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/260/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/260.png"
+    }
+  },
+  {
+    "dexNumber": 261,
+    "nameKo": "포챠나",
+    "nameEn": "Poochyena",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "악"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 35,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 35
+    },
+    "image": "pokemon/261.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/261/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/261/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/261.png"
+    }
+  },
+  {
+    "dexNumber": 263,
+    "nameKo": "지그제구리",
+    "nameEn": "Zigzagoon",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "노말"
+    ],
+    "baseStats": {
+      "hp": 38,
+      "attack": 30,
+      "defense": 41,
+      "specialAttack": 30,
+      "specialDefense": 41,
+      "speed": 60
+    },
+    "image": "pokemon/263.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/263/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/263/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/263.png"
+    }
+  },
+  {
+    "dexNumber": 265,
+    "nameKo": "개무소",
+    "nameEn": "Wurmple",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "벌레"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 45,
+      "defense": 35,
+      "specialAttack": 20,
+      "specialDefense": 30,
+      "speed": 20
+    },
+    "image": "pokemon/265.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/265/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/265/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png"
+    }
+  },
+  {
+    "dexNumber": 270,
+    "nameKo": "연꽃몬",
+    "nameEn": "Lotad",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "물",
+      "풀"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 30,
+      "specialAttack": 40,
+      "specialDefense": 50,
+      "speed": 30
+    },
+    "image": "pokemon/270.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/270/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/270/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/270.png"
+    }
+  },
+  {
+    "dexNumber": 280,
+    "nameKo": "랄토스",
+    "nameEn": "Ralts",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "에스퍼",
+      "페어리"
+    ],
+    "baseStats": {
+      "hp": 28,
+      "attack": 25,
+      "defense": 25,
+      "specialAttack": 45,
+      "specialDefense": 35,
+      "speed": 40
+    },
+    "image": "pokemon/280.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/280/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/280/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png"
+    }
+  },
+  {
+    "dexNumber": 302,
+    "nameKo": "깜까미",
+    "nameEn": "Sableye",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "악",
+      "고스트"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 50
+    },
+    "image": "pokemon/302.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/302/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/302/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png"
+    }
+  },
+  {
+    "dexNumber": 359,
+    "nameKo": "앱솔",
+    "nameEn": "Absol",
+    "generation": 3,
+    "originRegion": "호연",
+    "debutGames": [
+      "포켓몬스터 루비·사파이어"
+    ],
+    "types": [
+      "악"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "specialAttack": 75,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "image": "pokemon/359.png",
+    "sources": {
+      "species": "https://pokeapi.co/api/v2/pokemon-species/359/",
+      "pokemon": "https://pokeapi.co/api/v2/pokemon/359/",
+      "artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png"
+    }
+  }
+]
