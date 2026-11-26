@@ -42,7 +42,7 @@ import reportWebVitals from './reportWebVitals';
 // import DistanceConverter from "./12/ex6/DistanceConverter";
 // import SignUpDialog from "./13/ex3/SignUpDialog";
 // import ProfileCard from "./13/ex5/ProfileCard";
-import DarkOrLight from "./14/DarkOrLight";
+import DarkOrLight from "./14/ex2/DarkOrLight";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
