@@ -40,15 +40,16 @@ import reportWebVitals from './reportWebVitals';
 // import Reservation from "./11/Reservation";
 // import Calculator from "./12/ex4/Calculator";
 // import DistanceConverter from "./12/ex6/DistanceConverter";
-import SignUpDialog from "./13/ex3/SignUpDialog";
-import ProfileCard from "./13/ex5/ProfileCard"
+// import SignUpDialog from "./13/ex3/SignUpDialog";
+// import ProfileCard from "./13/ex5/ProfileCard";
+import DarkOrLight from "./14/DarkOrLight";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(() => {
         root.render(
             <React.StrictMode>
-                <ProfileCard />
+                <DarkOrLight />
             </React.StrictMode>
         );
     }, 1000
